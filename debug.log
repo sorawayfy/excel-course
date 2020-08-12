@@ -1,0 +1,13 @@
+[0806/182758.820:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0806/182759.020:ERROR:exception_snapshot_win.cc(98)] thread ID 4308 not found in process
+[0806/182758.867:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0806/182759.036:ERROR:exception_snapshot_win.cc(98)] thread ID 3336 not found in process
+[0806/182759.036:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[0806/182759.052:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[0806/182758.820:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0806/182759.052:ERROR:exception_snapshot_win.cc(98)] thread ID 4328 not found in process
+[0806/182759.052:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[0806/182759.020:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[0811/172841.472:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0811/214309.942:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0811/214310.042:ERROR:exception_snapshot_win.cc(98)] thread ID 1016 not found in process
