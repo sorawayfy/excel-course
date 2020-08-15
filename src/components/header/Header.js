@@ -23,7 +23,8 @@ export class Header extends ExcelComponent {
   toHTML() {
     const title = this.store.getState().title || defaultTitle
     return `
-      <input type="text" class="input" value="${title}" />
+      <input type="text" class="input" value="${title}" 
+      placeholder="Table name"/>
 
       <div>
 
@@ -43,7 +44,7 @@ export class Header extends ExcelComponent {
     const $target = $(event.target)
 
     if ($target.data.button === 'remove') {
-      const decision = confirm('Вы действительно хотите удалить эту таблицу?')
+      const decision = confirm('You want to remove this table?')
 
       if (decision) {
         localStorage.removeItem('excel:' + ActiveRoute.param)
