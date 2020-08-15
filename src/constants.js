@@ -5,4 +5,4 @@ export const defaultStyles = {
   fontStyle: 'normal'
 }
 
-export const defaultTitle = 'New Table'
+export const defaultTitle = 'Новая таблица'
