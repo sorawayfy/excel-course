@@ -7,13 +7,13 @@ export class DashboardPage extends Page {
     const now = Date.now().toString()
     return $.create('div', 'db').html(`
       <div class="db__header">
-        <h1>Excel. Панель Управления</h1>
+        <h1>Excel Tables</h1>
       </div>
 
       <div class="db__new">
         <div class="db__view">
           <a href="#excel/${now}" class="db__create">
-            Новая <br /> Таблица
+            <span style="font-size:60px;">+</span>
           </a>
         </div>
       </div>
